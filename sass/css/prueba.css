@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/*Import*/
+/*VARIABLES*/
+p {
+  color: black;
+  font-size: 12pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+h2 {
+  color: #141414;
+  font-size: 20pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center; }
+
+h3 {
+  color: #141414;
+  font-size: 14pt;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+ul li {
+  list-style: none; }
+
+/*Este es mi código css del archivo html*/
+#uno {
+  margin: 10px;
+  padding: 20px; }
+
+.bordesRedondeados {
+  border-radius: 20px; }
+
+.nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row; }
+  .nav li {
+    margin-left: 15px;
+    width: 100px;
+    height: 50px;
+    background-color: cornsilk; }
+
+#dos {
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px black;
+  background-color: darkcyan;
+  display: flex; }
+  #dos li {
+    margin-right: 20px;
+    width: 90px;
+    height: 40px; }
+
+#tres {
+  margin: 20px;
+  padding: 20px;
+  border: solid 2px black;
+  background-color: darkcyan; }
+
+.inicio {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: #ab52d8; }
+  .inicio .uno {
+    margin: 20px;
+    padding: 20px;
+    border: solid 3px black;
+    background-color: lightskyblue; }
+    .inicio .uno .dos {
+      margin: 20px;
+      padding: 20px;
+      border: solid 3px black;
+      background-image: linear-gradient(#fffd7d, #ffa494); }
+      .inicio .uno .dos .tres {
+        margin: 20px;
+        padding: 20px;
+        border: solid 3px black;
+        background-color: #6efd6e; }
+
+.servicios {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: darkcyan; }
+  .servicios .grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid01 grid02" "grid03 grid04" "grid05 grid06" "grid07 grid08" "grid09 grid10" "grid11 grid12" "grid13 grid14" "grid15 grid16" "grid17 grid18" "grid19 grid20"; }
+  .servicios .grid01 {
+    grid-area: grid01; }
+  .servicios .grid02 {
+    grid-area: grid02; }
+  .servicios .grid03 {
+    grid-area: grid03; }
+  .servicios .grid04 {
+    grid-area: grid04; }
+  .servicios .grid05 {
+    grid-area: grid05; }
+  .servicios .grid06 {
+    grid-area: grid06; }
+  .servicios .grid07 {
+    grid-area: grid07; }
+  .servicios .grid08 {
+    grid-area: grid08; }
+  .servicios .grid09 {
+    grid-area: grid09; }
+  .servicios .grid10 {
+    grid-area: grid10; }
+  .servicios .grid11 {
+    grid-area: grid11; }
+  .servicios .grid12 {
+    grid-area: grid12; }
+  .servicios .grid13 {
+    grid-area: grid13; }
+  .servicios .grid14 {
+    grid-area: grid14; }
+  .servicios .grid15 {
+    grid-area: grid15; }
+  .servicios .grid16 {
+    grid-area: grid16; }
+  .servicios .grid17 {
+    grid-area: grid17; }
+  .servicios .grid18 {
+    grid-area: grid18; }
+  .servicios .grid19 {
+    grid-area: grid19; }
+  .servicios .grid20 {
+    grid-area: grid20; }
+
+/*Sección: consejos de alimentación*/
+.consejosDeAlimentacion {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: #bffa67; }
+
+/*Sección: cuidados*/
+.cuidados {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: #adffc8; }
+
+/*Sección razas*/
+.razas {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: #f6ff73; }
+
+/*Sección foro*/
+.foro {
+  margin: 20px;
+  padding: 20px;
+  border: solid 3px black;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: column; }
+  .foro img {
+    width: 300px 350;
+    margin: 10px; }
+    .foro img a:hover {
+      color: red; }
+
+/*TRANSFORMACIONES*/
+/*Línea de tiempo*/
+.transformaciones1__cambios {
+  margin: 50px;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  background-image: url("https://us.123rf.com/450wm/kozorog/kozorog1611/kozorog161100024/65751076-hierba-alta-entre-los-dientes-de-le%C3%B3n-perros-encantadores-ingl%C3%A9s-cachorros-y-bulldog-franc%C3%A9s-en-el-parque-p.jpg?ver=6");
+  animation: forma infinite 2s; }
+
+@keyframes forma {
+  0% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.1, 1.1); }
+  50% {
+    transform: scale(1.25, 1.1); }
+  75% {
+    transform: scale(0.5); }
+  100% {
+    transform: scale(1); } }
+
+.transformaciones2 {
+  margin: 50px;
+  padding: 20px;
+  width: 500px;
+  height: 200px;
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.infobae.com%2Famerica%2Fperrosygatos%2F2021%2F04%2F11%2Fque-tips-tener-en-cuenta-para-jugar-con-tu-perro%2F&psig=AOvVaw3uUADsnA0t9_zhCPyOLlSc&ust=1620340445847000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjZoObMs_ACFQAAAAAdAAAAABAK);
+  animation: form infinite 2s; }
+
+@keyframes form {
+  0% {
+    transform: scale(0.5); }
+  25% {
+    transform: scale(1, 1); }
+  50% {
+    transform: scale(1.2, 1.2); }
+  75% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.5); } }
+
+.jumbo-bg {
+  background-image: url(../../Multimedia/gran-manada.jpg);
+  margin: 20px;
+  padding: 20px; }
