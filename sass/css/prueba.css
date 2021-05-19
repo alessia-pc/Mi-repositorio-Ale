@@ -4,18 +4,21 @@
 p {
   color: black;
   font-size: 12pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+ "Lucida Sans", Arial, sans-serif; }
 
 h2 {
   color: #141414;
   font-size: 20pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+ "Lucida Sans", Arial, sans-serif;
   text-align: center; }
 
 h3 {
   color: #141414;
   font-size: 14pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+ "Lucida Sans", Arial, sans-serif; }
 
 ul li {
   list-style: none; }
@@ -85,7 +88,16 @@ ul li {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "grid01 grid02" "grid03 grid04" "grid05 grid06" "grid07 grid08" "grid09 grid10" "grid11 grid12" "grid13 grid14" "grid15 grid16" "grid17 grid18" "grid19 grid20"; }
+    grid-template-areas: "grid01 grid02"
+ "grid03 grid04"
+ "grid05 grid06"
+ "grid07 grid08"
+ "grid09 grid10"
+ "grid11 grid12"
+ "grid13 grid14"
+ "grid15 grid16"
+ "grid17 grid18"
+ "grid19 grid20"; }
   .servicios .grid01 {
     grid-area: grid01; }
   .servicios .grid02 {
