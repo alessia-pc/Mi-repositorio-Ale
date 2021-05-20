@@ -4,27 +4,25 @@
 p {
   color: black;
   font-size: 12pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
- "Lucida Sans", Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 h2 {
   color: #141414;
   font-size: 20pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
- "Lucida Sans", Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center; }
 
 h3 {
   color: #141414;
   font-size: 14pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
- "Lucida Sans", Arial, sans-serif; }
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
 
 ul li {
   list-style: none; }
 
 /*Este es mi código css del archivo html*/
 #uno {
+  display: flex;
   margin: 10px;
   padding: 20px; }
 
@@ -42,6 +40,7 @@ ul li {
     background-color: cornsilk; }
 
 #dos {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 2px black;
@@ -53,51 +52,22 @@ ul li {
     height: 40px; }
 
 #tres {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 2px black;
   background-color: darkcyan; }
 
-.inicio {
-  margin: 20px;
-  padding: 20px;
-  border: solid 3px black;
-  background-color: #ab52d8; }
-  .inicio .uno {
-    margin: 20px;
-    padding: 20px;
-    border: solid 3px black;
-    background-color: lightskyblue; }
-    .inicio .uno .dos {
-      margin: 20px;
-      padding: 20px;
-      border: solid 3px black;
-      background-image: linear-gradient(#fffd7d, #ffa494); }
-      .inicio .uno .dos .tres {
-        margin: 20px;
-        padding: 20px;
-        border: solid 3px black;
-        background-color: #6efd6e; }
-
 .servicios {
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
-  background-color: darkcyan; }
+  background-color: #6fdddd; }
   .servicios .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "grid01 grid02"
- "grid03 grid04"
- "grid05 grid06"
- "grid07 grid08"
- "grid09 grid10"
- "grid11 grid12"
- "grid13 grid14"
- "grid15 grid16"
- "grid17 grid18"
- "grid19 grid20"; }
+    grid-template-areas: "grid01 grid02" "grid03 grid04" "grid05 grid06" "grid07 grid08" "grid09 grid10" "grid11 grid12" "grid13 grid14" "grid15 grid16" "grid17 grid18" "grid19 grid20"; }
   .servicios .grid01 {
     grid-area: grid01; }
   .servicios .grid02 {
@@ -141,6 +111,7 @@ ul li {
 
 /*Sección: consejos de alimentación*/
 .consejosDeAlimentacion {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
@@ -148,6 +119,7 @@ ul li {
 
 /*Sección: cuidados*/
 .cuidados {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
@@ -155,13 +127,18 @@ ul li {
 
 /*Sección razas*/
 .razas {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
   background-color: #f6ff73; }
+  .razas .grid h3 {
+    font-size: 15pt;
+    text-align: center; }
 
 /*Sección foro*/
 .foro {
+  display: flex;
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
