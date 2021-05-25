@@ -21,6 +21,9 @@ ul li {
   list-style: none; }
 
 /*Este es mi código css del archivo html*/
+.index {
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg); }
+
 #uno {
   display: flex;
   padding: 20px; }
@@ -60,7 +63,7 @@ ul li {
 .servicios {
   margin: 0px;
   padding: 20px;
-  background-color: #6fdddd; }
+  background-color: #e4e4e4; }
   .servicios .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,6 +109,8 @@ ul li {
     grid-area: grid19; }
   .servicios .grid20 {
     grid-area: grid20; }
+  .servicios h3 {
+    color: #2fa380; }
 
 /*Sección: consejos de alimentación*/
 .consejosDeAlimentacion {
@@ -119,7 +124,7 @@ ul li {
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
-  background-color: #ffc9a6; }
+  background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg); }
 
 /*Sección razas*/
 .razas {

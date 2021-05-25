@@ -33,6 +33,11 @@ ul li {
 }
 /*Este es mi código css del archivo html*/
 
+.index {
+  background-image:
+  url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg);
+}
+
 #uno {
   display: flex;
   padding: 20px;
@@ -85,7 +90,7 @@ ul li {
   margin: 0px;
   padding: 20px;
   
-  background-color: rgb(111, 221, 221);
+  background-color: rgb(228, 228, 228);
 
   .grilla {
     display: grid;
@@ -176,6 +181,9 @@ ul li {
     grid-area: grid20;
   }
  
+  h3{
+    color: rgb(47, 163, 128);
+  }
 }
 
 /*Sección: consejos de alimentación*/
@@ -194,7 +202,8 @@ ul li {
   margin: 20px;
   padding: 20px;
   border: solid 3px black;
-  background-color: rgb(255, 201, 166);
+  background-image:
+  url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg);
 }
 
 /*Sección razas*/
