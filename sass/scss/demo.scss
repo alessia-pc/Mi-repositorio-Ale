@@ -10,22 +10,20 @@ $ancho: 500px;
 p {
   color: $negro;
   font-size: 12pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: sans-serif;
+    
 }
 h2 {
   color: rgb(20, 20, 20);
   font-size: 20pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: sans-serif;
   text-align: center;
 }
 
 h3 {
   color: rgb(20, 20, 20);
   font-size: 14pt;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family:sans-serif;
 }
 
 ul li {
@@ -33,57 +31,49 @@ ul li {
 }
 /*Este es mi código css del archivo html*/
 
+/*INDEX*/
+
+
 .index {
-  background-image:
-  url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg);
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(228, 228, 228);
+}
+.index div {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-#uno {
-  display: flex;
-  padding: 20px;
+.index h2 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
 }
-.nav-link {
-  margin: 15px;
-  padding: 0px;
-}
+
+   .grillas-i¨{ 
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "g1"
+      "g2"
+      "g3" 
+      "g4" 
+      "g5"
+      "g6"
+      "g7"
+      "g8"
+      "g9"
+      "g10" 
+    }
+
+  .g1 {
+    grid-area: g1;
+  }
+
 
 .bordesRedondeados {
   border-radius: 20px;
-}
-
-.nav {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-
-  li {
-    margin-left: 15px;
-    width: 100px;
-    height: 50px;
-    background-color: cornsilk;
-  }
-}
-
-#dos {
-  display: flex;
-  padding: 20px;
-  
-  background-color: darkcyan;
-  display: flex;
-
-  li {
-    margin-right: 20px;
-    width: 90px;
-    height: 40px;
-  }
-}
-
-#tres {
-  display: flex;
-  
-  padding: 20px;
-  
-  background-color: rgb(0, 139, 139);
 }
 
 .servicios {
@@ -189,34 +179,91 @@ ul li {
 /*Sección: consejos de alimentación*/
 
 .consejosDeAlimentacion {
-  
-  margin: 20px;
-  padding: 20px;
-  border: solid 3px black;
-  background-color: rgb(191, 250, 103);
+  background-color: rgb(228, 228, 228);
 }
 
 /*Sección: cuidados*/
 .cuidados {
-  
-  margin: 20px;
-  padding: 20px;
-  border: solid 3px black;
+ 
   background-image:
   url(https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-bone-claw-print-image_595775.jpg);
 }
 
 /*Sección razas*/
 .razas {
-  background-color: rgb(180, 180, 180);
+  
+  background-color: rgb(228, 228, 228);
+
+.grillaRazas {
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-areas:
+    "raza1 raza2 raza3 raza4"
+    "raza5 raza6 raza7 raza8"
+    "raza9 raza10 raza11 raza12"
+    "raza13 raza14 raza15 raza16";
+  }
+
+  .raza1 {
+    grid-area: raza1;
+    margin-bottom: 40px;
+  }
+  .raza2 {
+    grid-area: raza2;
+  }
+  .raza3 {
+    grid-area: raza3;
+  }
+  .raza4 {
+    grid-area: raza4;
+  }
+  .raza5 {
+    grid-area: raza5;
+    margin-bottom: 40px;
+  }
+  .raza6 {
+    grid-area: raza6;
+  }
+  .raza7 {
+    grid-area: raza7;
+  }
+  .raza8 {
+    grid-area: raza8;
+  }
+  .raza9 {
+    grid-area: raza9;
+    margin-bottom: 40px;
+  }
+  .raza10 {
+    grid-area: raza10;
+  }
+  .raza11 {
+    grid-area: raza11;
+  }
+  .raza12 {
+    grid-area: raza12;
+  }
+  .raza13 {
+    grid-area: raza13;
+    margin-bottom: 40px;
+  }
+  .raza14 {
+    grid-area: raza14;
+  }
+  .raza15 {
+    grid-area: raza15;
+  }
+  .raza16 {
+    grid-area: raza16;
+  }
+
 }
+
 /*Sección foro*/
 .foro {
-  
-  margin: 20px;
-  padding: 20px;
-  border: solid 3px black;
-  background-color: darkcyan;
+  background-color:rgb(228, 228, 228);
   display: flex;
   flex-direction: column;
 
@@ -229,44 +276,9 @@ ul li {
     }
   }
 }
-/*TRANSFORMACIONES*/
 
-/*Línea de tiempo*/
 
-.transformaciones2 {
-  margin: 50px;
-  padding: 20px;
-  width: $alto;
-  height: ($ancho/2)-50;
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.infobae.com%2Famerica%2Fperrosygatos%2F2021%2F04%2F11%2Fque-tips-tener-en-cuenta-para-jugar-con-tu-perro%2F&psig=AOvVaw3uUADsnA0t9_zhCPyOLlSc&ust=1620340445847000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjZoObMs_ACFQAAAAAdAAAAABAK);
-  animation: form infinite 2s;
-}
 
-@keyframes form {
-  0% {
-    transform: scale(0.5);
-  }
 
-  25% {
-    transform: scale(1, 1);
-  }
 
-  50% {
-    transform: scale(1.2, 1.2);
-  }
-
-  75% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(0.5);
-  }
-}
-
-.jumbo-bg {
-  background-image: url(../../Multimedia/gran-manada.jpg);
-  margin: 20px;
-  padding: 20px;
-}
 
