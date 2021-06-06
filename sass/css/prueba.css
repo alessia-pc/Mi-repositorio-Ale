@@ -4,46 +4,131 @@
 p {
   color: black;
   font-size: 12pt;
-  font-family: sans-serif; }
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 h2 {
   color: #141414;
   font-size: 20pt;
-  font-family: sans-serif;
+  font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center; }
 
 h3 {
   color: #141414;
   font-size: 14pt;
-  font-family: sans-serif; }
+  font-family: -apple-system, 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif; }
 
 ul li {
   list-style: none; }
 
 /*Este es mi código css del archivo html*/
 /*INDEX*/
+.nav-link {
+  margin-left: 25px;
+  margin-right: 25px; }
+
+.nav-redes {
+  margin-left: 35px;
+  margin-top: 3px; }
+
 .index {
   margin: 0px;
   padding: 0px;
-  background-color: #e4e4e4; }
+  background-color: #fdf5ee; }
 
 .index div {
-  margin-left: 5px;
-  margin-right: 5px; }
+  margin-left: 10px;
+  margin-right: 10px; }
 
-.index h2 {
+.index h3 {
   margin-top: 15px;
   margin-bottom: 10px;
-  text-align: left; }
+  margin-left: 10px; }
 
-.grillas-i¨ {
+.container-fluid {
+  font-size: 20px; }
+
+.encabezado {
+  margin-top: 14,5px; }
+
+.t-noticias {
+  margin-top: 30px;
+  text-align: center; }
+
+.noticia-pic1 {
+  margin-left: 65px;
+  margin-right: 70px; }
+
+.noticia-pic2 {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.noticia-pic3 {
+  margin-left: 65px;
+  margin-right: 70px; }
+
+.grids-n {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "g1" "g2" "g3"  "g4"  "g5" "g6" "g7" "g8" "g9" "g10"; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "gp1 gp2 gp3"; }
 
-.g1 {
-  grid-area: g1; }
+.gp1 {
+  grid-area: gp1; }
+
+.gp2 {
+  grid-area: gp2; }
+
+.gp3 {
+  grid-area: gp3; }
+
+.grillas-i {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 230px 200px 310px 170px 190px;
+  grid-template-areas: "g2 g8 g11" "g3 g9 g12" "g4 g10 g13" "g5 g10 g13" "g6 g10 g13"; }
+
+.g2 {
+  grid-area: g2; }
+
+.g3 {
+  grid-area: g3;
+  margin-bottom: 0px; }
+
+.g4 {
+  grid-area: g4;
+  margin-bottom: 0px; }
+
+.g5 {
+  grid-area: g5;
+  margin-bottom: 0px; }
+
+.g6 {
+  grid-area: g6;
+  margin-bottom: 0px; }
+
+.g8 {
+  grid-area: g8;
+  margin-bottom: 0px; }
+
+.g9 {
+  grid-area: g9;
+  margin-bottom: 0px; }
+
+.g10 {
+  grid-area: g10;
+  margin-bottom: 0px; }
+
+.g11 {
+  grid-area: g11;
+  margin-bottom: 0px; }
+
+.g12 {
+  grid-area: g12;
+  margin-bottom: 0px; }
+
+.g13 {
+  grid-area: g13;
+  margin-bottom: 0px; }
 
 .bordesRedondeados {
   border-radius: 20px; }
@@ -153,13 +238,104 @@ ul li {
   .razas .raza16 {
     grid-area: raza16; }
 
+.husky {
+  background-color: #e4e4e4; }
+
+.pastor {
+  background-color: #e4e4e4; }
+
+.boxer {
+  background-color: #e4e4e4; }
+
+.pug {
+  background-color: #e4e4e4; }
+
+.weimaraner {
+  background-color: #e4e4e4; }
+
+.bulldog {
+  background-color: #e4e4e4; }
+
+.dalmata {
+  background-color: #e4e4e4; }
+
+.schnauzer {
+  background-color: #e4e4e4; }
+
+.chihuahua {
+  background-color: #e4e4e4; }
+
+.dobermann {
+  background-color: #e4e4e4; }
+
+.rottweiler {
+  background-color: #e4e4e4; }
+
+.labrador {
+  background-color: #e4e4e4; }
+
+.boyero {
+  background-color: #e4e4e4; }
+
+.border {
+  background-color: #e4e4e4; }
+
+.beagle {
+  background-color: #e4e4e4; }
+
+.chow {
+  background-color: #e4e4e4; }
+
 /*Sección foro*/
-.foro {
-  background-color: #e4e4e4;
-  display: flex;
-  flex-direction: column; }
-  .foro img {
-    width: 300px 350;
-    margin: 10px; }
-    .foro img a:hover {
-      color: red; }
+.petshop {
+  background-color: #e4e4e4; }
+  .petshop .grid-petshop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "gs1 gs2" "gs3 gs4" "gs5 gs6" "gs7 gs8" "gs9 gs10" "gs11 gs12" "gs13 gs14" "gs15 gs16" "gs17 gs18" "gs19 gs20"; }
+  .petshop .gs1 {
+    grid-area: gs1; }
+  .petshop .gs2 {
+    grid-area: gs2; }
+  .petshop .gs3 {
+    grid-area: gs3; }
+  .petshop .gs4 {
+    grid-area: gs4; }
+  .petshop .gs5 {
+    grid-area: gs5; }
+  .petshop .gs6 {
+    grid-area: gs6; }
+  .petshop .gs7 {
+    grid-area: gs7; }
+  .petshop .gs8 {
+    grid-area: gs8; }
+  .petshop .gs9 {
+    grid-area: gs9; }
+  .petshop .gs10 {
+    grid-area: gs10; }
+  .petshop .gs11 {
+    grid-area: gs11; }
+  .petshop .gs12 {
+    grid-area: gs12; }
+  .petshop .gs13 {
+    grid-area: gs13; }
+  .petshop .gs14 {
+    grid-area: gs14; }
+  .petshop .gs15 {
+    grid-area: gs15; }
+  .petshop .gs16 {
+    grid-area: gs16; }
+  .petshop .gs17 {
+    grid-area: gs17; }
+  .petshop .gs18 {
+    grid-area: gs18; }
+  .petshop .gs19 {
+    grid-area: gs19; }
+  .petshop .gs20 {
+    grid-area: gs20; }
+  .petshop .img-ropa {
+    margin-top: 30px;
+    margin-left: 80px; }
+  .petshop .petshop p {
+    margin-top: 20px; }
