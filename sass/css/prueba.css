@@ -1,26 +1,5 @@
 @charset "UTF-8";
 /*Import*/
-@media only screen and (max-width: 768px) {
-  .index {
-    width: 100%; }
-  .t-noticias .noticia-pic1 {
-    width: 100px; }
-  .t-noticias .noticia-pic2 {
-    width: 100px; }
-  .t-noticias .noticia-pic3 {
-    width: 100px; } }
-
-@media only screen and (max-width: 768px) {
-  .servicios {
-    max-width: 100%; }
-  .mapa {
-    height: 300px; }
-  .grilla {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "grid01" "grid02" "grid03" "grid04" "grid05" "grid06" "grid07" "grid08" "grid09" "grid10" "grid11" "grid12" "grid13" "grid14" "grid15" "grid16" "grid17" "grid18" "grid19" "grid20"; } }
-
 /*VARIABLES*/
 p {
   color: black;
@@ -421,7 +400,14 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "raza1" "raza2" "raza3" "raza4" "raza5" "raza6" "raza7" "raza8" "raza9" "raza10" "raza11" "raza12" "raza13" "raza14" "raza15" "raza16"; } }
+    grid-template-areas: "raza1" "raza2" "raza3" "raza4" "raza5" "raza6" "raza7" "raza8" "raza9" "raza10" "raza11" "raza12" "raza13" "raza14" "raza15" "raza16"; }
+  .t-i-razas {
+    margin-top: 20px;
+    text-align: left; } }
+
+.t-i-razas {
+  text-align: center;
+  margin-top: 70px; }
 
 .husky {
   background-color: #e4e4e4; }
@@ -474,12 +460,6 @@ h3 {
 .tittle-razas {
   text-align: center;
   font-size: 25px; }
-
-.img-razas {
-  margin-left: 430px;
-  margin-right: 200px;
-  margin-top: 80px;
-  margin-bottom: 20px; }
 
 /*Sección foro*/
 .petshop {
