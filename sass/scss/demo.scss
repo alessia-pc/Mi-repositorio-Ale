@@ -47,6 +47,41 @@ h3 {
 
 }
 
+.noticias {
+  display: flex;
+  flex-direction: column;
+
+  .grids-n {
+    display: flex;
+  }
+
+  a {
+    width: 100%;
+    height: 100%;
+  }
+  .gp1,
+  .gp2,
+  .gp3 {
+    /*ancho y alto de las img*/
+    max-height: 350px;
+    max-width: 33%;
+  }
+
+  .gp1,
+  .gp2,
+  .gp3 {
+    img {
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+
+
 .index {
   margin: 0px;
   padding: 0px;
@@ -133,11 +168,16 @@ h3 {
 
 
 
+
 .servicios {
   margin: 0px;
   padding: 20px;
   background-color: rgb(228, 228, 228);
 }
+
+
+
+
   .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -227,6 +267,42 @@ h3 {
     grid-area: grid20;
   }
 
+  
+  @media only screen and (max-width: 768px) {
+    .servicios {
+      max-width: 100%;
+    }
+    .mapa {
+      height: 300px;
+    }
+  
+    .grilla {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+        "grid01"
+        "grid02"
+        "grid03"
+        "grid04"
+        "grid05"
+        "grid06"
+        "grid07"
+        "grid08"
+        "grid09"
+        "grid10"
+        "grid11"
+        "grid12"
+        "grid13"
+        "grid14"
+        "grid15"
+        "grid16"
+        "grid17"
+        "grid18"
+        "grid19"
+        "grid20";
+    }
+  }
 
 
 .servicios h3 {
@@ -288,11 +364,18 @@ h3 {
   grid-area: consejos-m;
 }
 
-
-/*Sección: cuidados*/
-.cuidados {
-background-color: rgb(228, 228, 228);
+@media only screen and (max-width: 768px) {
+  .grids-consejos {
+    
+    display: grid;
+    grid-template-columns: 600px 700px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "consejos-b"
+      "consejos-m";
+  }
 }
+/*Sección: cuidados*/
 
 .grillas-cuidados {
   display: grid;
@@ -379,6 +462,41 @@ background-color: rgb(228, 228, 228);
 }
 
 
+@media only screen and (max-width: 768px) {
+
+  .grillas-cuidados {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "grids-c10"
+      "grids-c1"
+      "grids-c11"
+      "grids-c2"
+      "grids-c12"
+      "grids-c3"
+      "grids-c13"
+      "grids-c4"
+      "grids-c14"
+      "grids-c5"
+      "grids-c15"
+      "grids-c6"
+      "grids-c16"
+      "grids-c7"
+      "grids-c17"
+      "grids-c8"
+      "grids-c18"
+      "grids-c9"
+      ;
+  }
+}
+
+.cuidados {
+background-color: rgb(228, 228, 228);
+}
+
+
+
 .grillas-cuidados div{
   margin-top: 50px;
   margin-left: 20px;
@@ -457,6 +575,38 @@ background-color: rgb(228, 228, 228);
   .raza16 {
     grid-area: raza16;
   }
+
+
+  @media only screen and (max-width: 768px) {
+    .razas {
+      max-width: 100%;
+    }
+    
+    .grillaRazas {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "raza1"
+      "raza2"
+      "raza3"
+      "raza4"
+      "raza5"
+      "raza6"
+      "raza7"
+      "raza8"
+      "raza9"
+      "raza10"
+      "raza11"
+      "raza12"
+      "raza13"
+      "raza14"
+      "raza15"
+      "raza16";
+    }
+  }
+
+  
 
 
 .husky {
@@ -621,6 +771,41 @@ background-color: rgb(228, 228, 228);
 .gs20 {
   grid-area: gs20;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .petshop {
+    max-width: 100%;
+  }
+  
+  .grid-petshop {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "gs1"
+    "gs2"
+    "gs3"
+    "gs4"
+    "gs5"
+    "gs6"
+    "gs7"
+    "gs8"
+    "gs9"
+    "gs10"
+    "gs11"
+    "gs12"
+    "gs13"
+    "gs14"
+    "gs15"
+    "gs16"
+    "gs17"
+    "gs18"
+    "gs19"
+    "gs20";
+  }
+}
+
 
 .img-ropa {
   margin-top: 30px;
