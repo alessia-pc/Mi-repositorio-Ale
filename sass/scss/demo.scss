@@ -1,8 +1,5 @@
 
-
 /*Import*/
-@import "responsive";
-
 
 /*VARIABLES*/ 
 $negro: black;
@@ -78,6 +75,10 @@ h3 {
       padding: 0;
     }
   }
+  .t-i-inicio {
+    text-align: left;
+
+  }
 }
 
 
@@ -114,9 +115,9 @@ h3 {
   font-size: 30px;
 }
 
-.pug-riendo {
-  margin-right: 500px;
-  margin-left: 520px;
+.t-i-inicio {
+  text-align: center;
+  margin-top: 20px;
 }
 
 
@@ -328,7 +329,7 @@ h3 {
 
 .img-alim {
   border-radius: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 160px;
 }
 
@@ -344,8 +345,9 @@ h3 {
 }
 
 .prohibido {
-  margin-right: 100px;
-  margin-left: 420px;
+  border-radius: 20px;
+  margin-right: 260px;
+  margin-left: 230px;
   margin-top: 40px;
   margin-bottom: 20px;
 }
